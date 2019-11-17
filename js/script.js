@@ -84,7 +84,7 @@ $("#before").click(function(){
 var typed1 = new Typed('.element1', {
     strings: [
         'halo Konan :) ^1000',
-        'hadiah ini kupersembahkan untukmu! ^1000',
+        'hadiah ini kupersembahkan untukmu... ^1000',
         'dimulai dari awal',
         'aku seorang yang pendiam',
         'aku anti-sosial',
