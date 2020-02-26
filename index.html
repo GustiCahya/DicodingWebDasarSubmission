@@ -3,45 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Konan</title>
-    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <title>Gusti Cahya Homepage</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/main.js"></script>
 </head>
-<body style="background: url('assets/sakura.jpg') no-repeat; background-size:cover;">
-
-    <audio controls loop autoplay style="visibility: hidden; position: absolute;">
-            <source src="assets/Surat Cinta Untuk Konan.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-    </audio>
-
-    <section class="p-5" style="background: linear-gradient(to right, #B24592, #F15F79); width: 85%; margin: 0 auto;">
-        <div class="row align-items-center justify-content-center">
-            <div class="col-md-6 col-sm-12">
-                <div class="paper bg-light rounded p-5 mx-auto" style="font-size: 1.5rem">
-                    <span id="element" class="element1"></span><br>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-12 mt-sm-4 mt-xs-4">
-                <img id="picture" src="assets/1.jpg" alt="picture" class="rounded w-100">
-            </div>
-        </div> 
-        <div class="row">
-            <div class="col-6 ">
-                <button id="before" class="btn btn-primary mr-auto m-4">before</button>
-            </div>
-            <div class="col-6 ">
-                <button id="next" class="btn btn-primary float-right m-4">next</button>
-            </div>
+<body>
+    <header>
+        <div class="heading">
+            <h1>Welcome to my Personal Homepage</h1>
+            <p>Everything you need to know all about me</p>
         </div>
-    </section>
-
-    <script src="js/typed.js"></script>
-    <script src="js/sweetalert2.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/babel.min.js"></script>
-    <script src="js/script.js" type="text/babel"></script>
+        <button class="toggle">&#9776;</button>
+        <nav class="navigasi">
+            <button class="close">&times;</button>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="content">
+            <article>
+                <h1><a href="">Pencapaian hidup yang penuh arti</a></h1>
+                <img src="assets/pic1.jpg" alt="">
+                <p>Ketika anda merasa hidup anda hampa tidak ada yang bisa anda lakukan, anda gabut ndak tau arah jalan pulang maka dari itu marilah seluruh rakyat indonesia... </p>
+                <button>Baca</button>
+            </article>
+            <article>
+                <h1><a href="">Pencapaian hidup yang penuh arti</a></h1>
+                <img src="assets/pic2.jpg" alt="">
+                <p>Ketika anda merasa hidup anda hampa tidak ada yang bisa anda lakukan, anda gabut ndak tau arah jalan pulang maka dari itu marilah seluruh rakyat indonesia... </p>
+                <button>Baca</button>
+            </article>
+            <article>
+                <h1><a href="">Pencapaian hidup yang penuh arti</a></h1>
+                <img src="assets/pic3.jpg" alt="">
+                <p>Ketika anda merasa hidup anda hampa tidak ada yang bisa anda lakukan, anda gabut ndak tau arah jalan pulang maka dari itu marilah seluruh rakyat indonesia... </p>
+                <button>Baca</button>
+            </article>
+        </div>
+        <aside>
+            <fieldset>
+                <legend>- Who am i ? -</legend>
+                <img src="assets/profile.jpg" alt="">
+                <ul>
+                    <li>Nama    : Gusti Bagus Cahya Utama</li>
+                    <li>Kelas   : XI RPL</li>
+                    <li>Sekolah : SMKN 2 Mataram</li>
+                    <li>Motto   : Let's be better than before</li>
+                    <li><a href="https://www.linkedin.com/in/gusti-bagus-cahya-utama/">Linkedin</a> <a href="https://www.youtube.com/channel/UCcq5Z3eGUNprtWgL7D5ZI0A?view_as=subscriber">Youtube</a> <a href="https://github.com/GustiCahya">Github</a> <a href="https://www.instagram.com/gusticahya__/">Instagram</a> </li>
+                </ul>
+            </fieldset>
+        </aside>
+    </main>
+    <footer>
+        &copy; Copyright Gusti Cahya
+    </footer>
 </body>
 </html>
